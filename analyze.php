@@ -9,7 +9,7 @@ use MicrosoftAzure\Storage\Blob\Models\CreateContainerOptions;
 use MicrosoftAzure\Storage\Blob\Models\PublicAccessType;
 
 $connectionString = "DefaultEndpointsProtocol=https;AccountName=sqlvaq2dvkq2v2zwci;AccountKey=DyaZ+eY6+qY2lhsSCR3Nayp7xZY8lLX+M+Sma45YB9TaWbcLA86l6iorNajoB1TPf7zd8czfvOWqEWLKVxn93g==";
-$containerName = "vulnerability-assessment";
+$containerName = "consub2";
 // Create blob client.
 $blobClient = BlobRestProxy::createBlobService($connectionString);
 if (isset($_POST['submit'])) {
