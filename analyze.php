@@ -31,7 +31,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="https://raw.githubusercontent.com/muhrizky/Smart-Parkir/master/parking_meter__2__Mrq_icon.ico">
+    
 
     <title>Undip Smart Parkir</title>
 
@@ -51,10 +51,10 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
 		<div class="collapse navbar-collapse" id="navbarsExampleDefault">
 			<ul class="navbar-nav mr-auto">
 			<li class="nav-item">
-				<a class="nav-link" href="https://smart-parkir.azurewebsites.net/">Home</a>
+				<a class="nav-link" href="https://submis1.azurewebsites.net/">Home</a>
 			</li>
 			<li class="nav-item active">
-				<a class="nav-link" href="https://smart-parkir.azurewebsites.net/analyze.php">Analisis Kendaraan<span class="sr-only">(current)</span></a>
+				<a class="nav-link" href="https://submis1.azurewebsites.net/analyze.php">Analisis Kendaraan<span class="sr-only">(current)</span></a>
 			</li>
 		</div>
 		</nav>
